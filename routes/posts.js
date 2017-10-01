@@ -13,7 +13,7 @@ router.get('/',function(req,res,next){
       res.render('posts', {
         posts: posts
       });
-      console.log(posts);
+      //console.log(posts);
     })
     .catch(next);
 });
